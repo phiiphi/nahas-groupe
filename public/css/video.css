@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    /* Base font size */
+    font-size: 10px;
+
+    /* Full grid area variable */
+    --fullGrid: 1 / 1 / -1 / -1;
+}
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: #fcfcfc;
+}
+
+.video-container {
+    /* Create grid spanning viewport width & height */
+    display: grid;
+    grid-template-rows: 100vh;
+    overflow: hidden;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+.hood {
+    height: 100px;
+    color: white;
+  }
+
+
+/* .hood:hover {
+    background-color: white;
+    color: #111;
+  } */
+
+.video-bg {
+    /* Span the full grid */
+    grid-area: var(--fullGrid);
+
+    /* Re-size video to cover full screen while maintaining aspect ratio */
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+
+    /* Display video below overlay */
+    z-index: -1;
+}
+
+.video-bg::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-overlay {
+    /* Span the full grid */
+    grid-area: var(--fullGrid);
+
+    /* Center Content */
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    /* text-align: center; */
+
+    /* Semi-transparent background */
+    /* background-color: rgba(0, 0, 0, 0.55); */
+}
+
+@media only screen and (max-width: 768px) {
+    .video-overlay {
+        /* Span the full grid */
+        grid-area: var(--fullGrid);
+    
+        /* Center Content */
+        display: none;
+        justify-content: space-between;
+        /* align-content: center; */
+        /* text-align: center; */
+    
+        /* Semi-transparent background */
+        /* background-color: rgba(0, 0, 0, 0.55); */
+    }
+
+    .video-1 {
+        /* Span the full grid */
+        grid-area: var(--fullGrid);
+    
+        /* Center Content */
+        display: block;
+        justify-content: space-between;
+        /* align-content: center; */
+        /* text-align: center; */
+    
+        /* Semi-transparent background */
+        /* background-color: rgba(0, 0, 0, 0.55); */
+    }
+  }
+
+.video-overlay1 {
+    /* Span the full grid */
+    grid-area: var(--fullGrid);
+
+    /* Center Content */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.parent {
+    position: relative;
+  }
+  
+  .star {
+    position: absolute;
+    padding: .5em;
+  }
