@@ -1,14 +1,16 @@
-<div class="block md:flex h-full md:h-[52rem]">
+<div class="block md:flex h-full md:h-[50rem]">
     <div class="flex justify-center flex-col  text-black w-full md:w-1/2 bg-[#ffbb38] mb-2 md:mb-0 ">
         <div class="w-full ml-2 md:ml-14">
-            <div class="h-2 w-16 bg-white animate-pulse rounded-full my-8"></div>
-            <h1 class='text-3xl md:text-5xl font-bold text-white'>Mission Statement</h1>
-            <p class="my-8 text-2xl text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere perspiciatis, praesentium est explicabo sit? Possimus, beatae impedit at, ullam earum harum enim commodi asperiores dicta ipsum temporibus a quam!
+            <div class="h-24 animate-pulse rounded-full text-5xl">
+                Nahas Properties
+            </div>
+            <h1 class='text-3xl md:text-5xl text-white font-serif'>The Best Way To Buy And Sell In The Ghana</h1>
+            <p class="my-8 text-2xl text-gray-600 mr-10">
+                Our team of international vibrant real estate agents is ready to offer personalized assistance; which includes real estate sales, rentals, property management, appraisals, and Bahamas relocation services. Call one of our licensed Realtors today at (242) 322-7979            
             </p>            
-            <p class="my-8 text-2xl text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet vitae, est incidunt saepe recusandae veniam omnis nulla eaque repudiandae veritatis dicta porro quibusdam reiciendis non temporibus iusto. Eos, a.
-            </p>
+            <p class="my-8 text-2xl text-gray-600 mr-10">
+                Our team of international vibrant real estate agents is ready to offer personalized assistance; which includes real estate sales, rentals, property management, appraisals, and Bahamas relocation services. Call one of our licensed Realtors today at (242) 322-7979            
+            </p>   
     
 
         </div>
@@ -16,36 +18,31 @@
     </div>
     <div class="flex justify-center flex-col text-gray-600 w-full md:w-1/2" >
             <img class="object-cover w-full overflow-hidden h-96 md:h-full" 
-            src="{{ asset('images/slider1.jpeg') }}"
+            src="{{ asset('images/house1.jpeg') }}"
             alt="image" />
-              <!-- <div class="button-left text-6xl uppercase">LOYAL BULLION SECURITY VAULT</div> -->
-
     </div>
 
 </div>
-<div class="block md:flex h-full md:h-[52rem]"> 
+<div class="block md:flex h-full md:h-[50rem]"> 
     <div class="flex justify-center flex-col text-gray-600 w-full md:w-1/2" >
             <img class="object-cover w-full overflow-hidden h-96 md:h-full" 
-            src="{{ asset('images/slider1.jpeg') }}"
+            src="{{ asset('images/house2.jpeg') }}"
             alt="image" />
-              <!-- <div class="button-left text-6xl uppercase">LOYAL BULLION SECURITY VAULT</div> -->
-
     </div>
-    <div class="flex justify-center flex-col  text-black w-full md:w-1/2 bg-[#ffbb38] mb-2 md:mb-0 ">
+    <div class="flex justify-center flex-col  text-black w-full h-full md:w-1/2 bg-[#ffbb38] mb-2 md:mb-0 ">
         <div class="w-full ml-2 md:ml-14">
-            <div class="h-2 w-16 bg-white animate-pulse rounded-full my-8"></div>
-            <h1 class='text-3xl md:text-5xl font-bold text-white'>Mission Statement</h1>
+            <div class="h-24 w-full text-5xl animate-pulse">
+                Technology to Fit You
+            </div>
+            <h1 class='text-3xl md:text-5xl font-serif text-white'>
+                Your Real Estate Choice for Living In The Ghana            
+            </h1>
             <p class="my-8 text-2xl text-gray-600">
-                Fast Logisitics Security Company is a global logistics  provider, offering a professional, <br>  personalised service to meet and exceed the requirements of you and your  customer.
-            </p>            
+                Our team of international vibrant real estate agents is ready to offer personalized assistance; <br> which includes real estate sales, rentals, property management, appraisals, and Bahamas <br> relocation services. Call one of our licensed Realtors today at (242) 322-7979
+            </p>        
             <p class="my-8 text-2xl text-gray-600">
-                Our in depth industry knowledge, combined with our timely responses, will ensure you receive the <br> most  competitive and comprehensive cargo care package.
-                We pride ourselves on adding value <br> to your product, actively seeking to become an integral part of your  business.
-            </p>
-    
-
+                Our team of international vibrant real estate agents is ready to offer personalized assistance; <br> which includes real estate sales, rentals, property management, appraisals, and Bahamas <br> relocation services. Call one of our licensed Realtors today at (242) 322-7979
+            </p>   
         </div>
-      
     </div>
-
 </div>

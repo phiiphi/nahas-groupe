@@ -49,7 +49,6 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="font-roboto antialiased">
-        <div class="">
             <x-navbar/>
             {{-- <div class="mt-32">
                 <x-slider/>
@@ -60,7 +59,13 @@
             <main class="">
                 {{$slot}}
             </main>
-            {{-- <x-footer/> --}}
-        </div>        
+            <x-footer/>
+            <div
+            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold  text-white h-40 mt-24 opacity-90 md:justify-center">
+            <p class="ml-2"></p>
+            <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-2 right-10" > 
+                <i class="fa-brands fa-whatsapp text-8xl bg-green-400 flex justify-center items-center w-36  h-28 rounded"></i>
+            </a>
+        </div>  
     </body>
 </html>

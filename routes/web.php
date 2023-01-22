@@ -26,6 +26,8 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('contact')->mi
 Route::get('/track', [PagesController::class, 'tracking'])->name('tracking')->middleware('guest');
 Route::get('/location', [PagesController::class, 'location'])->name('location')->middleware('guest');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery')->middleware('guest');
+Route::get('/faq', [PagesController::class, 'faq'])->name('faq')->middleware('guest');
+Route::get('/careers', [PagesController::class, 'careers'])->name('careers')->middleware('guest');
 
 
 

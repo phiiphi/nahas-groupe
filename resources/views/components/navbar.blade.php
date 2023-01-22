@@ -3,38 +3,38 @@
         <div class="flex justify-start items-center mx-6">
             <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-black">
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 {{'/' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
                   href="{{route('home')}}"
                     >Home</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 {{'about' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
                     href="{{route('about')}}" 
                     >About Us</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 {{'location' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
                   href="{{route('location')}}"
                     >Location</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block  hover:text-purple-400" 
+                  <a class="md:p-4 py-2 block  hover:text-purple-400 {{'contact' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
                   href="{{route('contact')}}"
                     >Contact</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block  hover:text-purple-400" 
-                  href="{{route('contact')}}"
+                  <a class="md:p-4 py-2 block  hover:text-purple-400 {{'careers' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  href="{{route('careers')}}"
                     >Careers</a
                   >
                 </li>
                 <li>
-                    <a class="md:p-4 py-2 block  hover:text-purple-400" 
-                    href="{{route('contact')}}"
+                    <a class="md:p-4 py-2 block  hover:text-purple-400 {{'faqs' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                    href="{{route('faq')}}"
                       >FAQ's</a
                     >
                   </li>

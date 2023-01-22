@@ -25,6 +25,12 @@ class PagesController extends Controller
     public function location() {
         return view('pages.location');
     }
+    public function faq() {
+        return view('pages.faq');
+    }
+    public function careers() {
+        return view('pages.careers');
+    }
     // public function gallery() {
     //     $product = Product::all();
     //     return view('pages.galary', compact('product'));
