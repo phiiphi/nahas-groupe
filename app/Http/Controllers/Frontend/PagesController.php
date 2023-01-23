@@ -10,7 +10,9 @@ class PagesController extends Controller
 {
     //
     public function home() {
-        return view('home');
+        return view('home', [
+            'products' => Product::latest()->paginate(6)
+        ]);
     }
 
     public function about() {

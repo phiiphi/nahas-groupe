@@ -1,8 +1,10 @@
 <footer class="w-full  block md:flex flex-col items-center justify-start font-bold bg-[#002f54] text-white h-full md:h-[34rem] md:justify-center">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
   <div class="block md:flex px-10 h-full md:h-96 w-full justify-center items-center">
     <div class="flex flex-col w-full md:w-1/5">
-      <h2 class="text-3xl  mt-10 md:mt-0 font-serif">Land Acquision</h2>
-      <div class="text-2xl font-serif my-4 mx-4 md:mx-0">
+      <h2 class="text-3xl  mt-10  md:mt-0 font-serif">Land Acquision</h2>
+      <div class="text-2xl font-serif my-4 md:mx-0 lg:mx-0">
         <p>International shipping</p>
         <p>Off-Shore Transfer</p>
         <p>Customs clearances</p> 
@@ -12,7 +14,7 @@
     </div>
     <div class="flex flex-col w-full md:w-1/5">
       <h2 class="text-3xl font-serif">House Rentals</h2>
-      <div class="text-2xl font-serif my-4 mx-4 md:mx-0">
+      <div class="text-2xl font-serif my-4 md:mx-0">
         <p>Economy or Premium Express</p>
         <p>Imports & exports</p>
         <p>Freight consolidation services </p> 
@@ -21,7 +23,7 @@
     </div>
     <div class="flex flex-col w-full md:w-1/5">
       <h2 class="text-3xl font-serif">Properties Management</h2>
-      <div class="text-2xl font-serif my-4 mx-4 md:mx-0">
+      <div class="text-2xl font-serif my-4 md:mx-0">
         <p>Short-to-long</p>
         <p>Domestic</p>
         <p>Secure</p> 
@@ -30,7 +32,7 @@
     </div>
     <div class="flex flex-col w-full md:w-1/5">
       <h2 class="text-3xl font-serif">Construction</h2>
-      <div class="text-2xl font-serif my-4 mx-4 md:mx-0">
+      <div class="text-2xl font-serif my-4 md:mx-0">
         <p class="">Nationwide delivery</p>
         <p>Pick Up Services</p>
         <p>MPI Approved </p> 
@@ -39,7 +41,7 @@
     </div>
     <div class="flex flex-col w-full md:w-1/5">
       <h2 class="text-3xl font-serif">Electrical</h2>
-      <div class="text-2xl font-serif my-4 mx-4 md:mx-0">
+      <div class="text-2xl font-serif my-4 md:mx-0">
         <p class="">Nationwide delivery</p>
         <p>Pick Up Services</p>
         <p>MPI Approved </p> 

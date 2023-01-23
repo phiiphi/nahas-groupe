@@ -2,16 +2,16 @@
   <div class="swiper">
     <div class="swiper-wrapper ">
       <div class="swiper-slide myswiper">
-        <img class="object-cover w-full h-80 md:h-full overflow-hidden" src="{{ asset('/images/slider1.jpeg') }}" alt="image" />
+        <img class="object-cover w-full h-80 md:h-[38rem] overflow-hidden" src="{{ asset('/images/slideri.jpg') }}" alt="image" />
       </div>
       <div class="swiper-slide myswiper">
-        <img class="object-cover w-full h-80 md:h-full overflow-hidden" src="{{ asset('/images/slider1.jpeg') }}" alt="image" />
+        <img class="object-cover w-full h-80 md:h-[38rem] overflow-hidden" src="{{ asset('/images/slideriii.jpg') }}" alt="image" />
       </div>
       <div class="swiper-slide myswiper">
-        <img class="object-cover w-full h-80 md:h-full overflow-hidden" src="{{ asset('/images/slider1.jpeg') }}" alt="image" />
+        <img class="object-cover w-full h-80 md:h-[38rem] overflow-hidden" src="{{ asset('/images/slidervi.jpg') }}" alt="image" />
       </div>
       <div class="swiper-slide myswiper">
-        <img class="object-cover w-full h-80 md:h-full overflow-hidden" src="{{ asset('/images/slider1.jpeg') }}" alt="image" />
+        <img class="object-cover w-full h-80 md:h-[38rem] overflow-hidden" src="{{ asset('/images/slideriv.jpg') }}" alt="image" />
       </div>
     </div>
     <div class="swiper-pagination"></div>

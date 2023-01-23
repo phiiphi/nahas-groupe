@@ -1,3 +1,4 @@
-<x-layout>
+<x-app>
+    <x-feature/>
     
-</x-layout>
+</x-app>
