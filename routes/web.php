@@ -28,6 +28,7 @@ Route::get('/location', [PagesController::class, 'location'])->name('location')-
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery')->middleware('guest');
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq')->middleware('guest');
 Route::get('/careers', [PagesController::class, 'careers'])->name('careers')->middleware('guest');
+Route::post('/file-upload', [PagesController::class, 'fileUploadPost'])->name('file.upload.post')->middleware('guest');
 
 
 
@@ -49,3 +50,4 @@ Route::post('/product/store', [ProductController::class, 'store'])->name('produc
 Route::get('/product/{product}', [ProductController::class, 'show'])->name('product.show')->middleware('guest');;
 
 // Route::post('/gallery', [GalaryController::class, 'store'])->name('gallery')->middleware('guest');
+

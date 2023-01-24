@@ -1,4 +1,4 @@
-<x-layout>
+<x-app>
     <h2 class="flex justify-center items-center text-9xl h-64 font-Arapey">CONTACT US</h2>
 
     <div class="font-Arapey sm:block md:flex justify-center items-center my-2">
@@ -103,4 +103,4 @@
 
         </div>
     </div>    
-</x-layout>
+</x-app>

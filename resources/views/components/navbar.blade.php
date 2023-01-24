@@ -16,9 +16,9 @@
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400 text-black {{'location' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
-                  href="{{route('location')}}"
-                    >Location</a
+                  <a class="md:p-4 py-2 block hover:text-purple-400 text-black {{'services' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  href="{{route('services')}}"
+                    >Services</a
                   >
                 </li>
                 <li>

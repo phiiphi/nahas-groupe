@@ -15,6 +15,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
+        <script src="https://cdn.tailwindcss.com"></script>
 
 
         <meta property="og:image" content="https://rbsvaults.com/images/logogold.jpg" />
@@ -34,13 +35,15 @@
 
         {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
 
+        <script type="text/javascript" data-cfasync="false" async="true" src="https://web.chatfully.io/live/63cf9c3bLGGeppH5Ykog"></script>
+
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/faqs.js') }}" defer></script>
         <script src="{{ asset('js/nav.js') }}" defer></script>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -50,9 +53,9 @@
             <header class="mb-40">
                 <x-navbar/>
             </header>            
-            <div class="mt-32">
+            {{-- <div class="mt-32">
                 <x-slider/>
-            </div>
+            </div> --}}
             <main class="">
                 {{$slot}}
             </main>
@@ -60,7 +63,7 @@
             <div
                 class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold  text-white h-40 mt-24 opacity-90 md:justify-center">
                 <p class="ml-2"></p>
-                <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-2 right-10" > 
+                <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-2 left-10" > 
                     <i class="fa-brands fa-whatsapp text-white text-8xl bg-green-400 flex justify-center items-center w-36  h-28 rounded"></i>
                 </a>
             </div>  
