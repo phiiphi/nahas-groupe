@@ -87,14 +87,20 @@
             </li>
             <li>
               <a class="md:p-4 py-2 block hover:text-purple-400" 
-              href="{{route('location')}}"
-                >Location</a
+              href="{{route('services')}}"
+                >Services</a
               >
             </li>
             <li>
               <a class="md:p-4 py-2 block  hover:text-purple-400" 
               href="{{route('contact')}}"
                 >Contact</a
+              >
+            </li>
+            <li>
+              <a class="md:p-4 py-2 block  hover:text-purple-400" 
+              href="{{route('careers')}}"
+                >Careers</a
               >
             </li>
             <li>

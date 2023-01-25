@@ -30,6 +30,7 @@ Route::get('/faq', [PagesController::class, 'faq'])->name('faq')->middleware('gu
 Route::get('/careers', [PagesController::class, 'careers'])->name('careers')->middleware('guest');
 Route::post('/file-upload', [PagesController::class, 'fileUploadPost'])->name('file.upload.post')->middleware('guest');
 
+Route::get('/application', [ProductController::class, 'application'])->name('application')->middleware(['auth']);
 
 
 Route::get('/login', [UserController::class, 'login'])->name('login')->middleware('guest');

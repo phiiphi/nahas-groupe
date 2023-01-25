@@ -43,8 +43,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Scripts -->
-        <script src="{{ asset('js/faqs.js') }}" defer></script>
         <script src="{{ asset('js/nav.js') }}" defer></script>
+        <script src="{{ asset('js/careers.js') }}" defer></script>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 

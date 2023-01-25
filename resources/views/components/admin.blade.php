@@ -60,8 +60,11 @@
               <a href="/product" class="hover:text-laravel">View Products</a>
           </li>
           <li class="mx-6 hover:underline">
-            <a href="/logout" class="hover:text-laravel">Logout</a>
+            <a href="/application" class="hover:text-laravel">View Applications</a>
         </li>
+        <li class="mx-6 hover:underline">
+          <a href="/logout" class="hover:text-laravel">Logout</a>
+      </li>
         </div>
         
     </ul>

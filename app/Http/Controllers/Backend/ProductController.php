@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 
+use App\Models\Vitae;
 use App\Models\Product;
+
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -18,6 +20,14 @@ class ProductController extends Controller
         $product = Product::all();
         return view("backend.products.index",compact('product'));
     }
+
+    public function application()
+    {
+        $vitaes = Vitae::all();
+        return view("backend.application.index",compact('vitaes'));
+    }
+
+    
 
     /**
      * Show the form for creating a new resource.

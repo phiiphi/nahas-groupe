@@ -1,5 +1,5 @@
 <div class="block md:flex h-full md:h-[50rem]">
-    <div class="flex justify-center flex-col  text-black w-full md:w-1/2 bg-[#ffbb38] mb-2 md:mb-0 ">
+    <div class="flex justify-center flex-col  text-black w-full md:w-1/2 bg-[#ffbb38]">
         <div class="w-full ml-2 md:ml-14">
             <div class="h-24 animate-pulse rounded-full text-5xl">
                 Nahas Properties
@@ -23,13 +23,13 @@
     </div>
 
 </div>
-<div class="block md:flex h-full md:h-[50rem]"> 
-    <div class="flex justify-center flex-col text-gray-600 w-full md:w-1/2" >
+<div class="block md:flex  h-full md:h-[50rem]"> 
+    <div class="hidden md:flex justify-center flex-col text-gray-600 w-full md:w-1/2" >
             <img class="object-cover w-full overflow-hidden h-96 md:h-full" 
             src="{{ asset('images/house2.jpeg') }}"
             alt="image" />
     </div>
-    <div class="flex justify-center flex-col  text-black w-full h-full md:w-1/2 bg-[#ffbb38] mb-2 md:mb-0 ">
+    <div class="flex justify-center flex-col  text-black w-full h-full md:w-1/2 bg-[#ffbb38]">
         <div class="w-full ml-2 md:ml-14">
             <div class="h-24 w-full text-5xl animate-pulse">
                 Technology to Fit You
@@ -45,4 +45,9 @@
             </p>   
         </div>
     </div>
+    <div class="flex md:hidden justify-center flex-col text-gray-600 w-full md:w-1/2" >
+        <img class="object-cover w-full overflow-hidden h-96 md:h-full" 
+        src="{{ asset('images/house2.jpeg') }}"
+        alt="image" />
+</div>
 </div>

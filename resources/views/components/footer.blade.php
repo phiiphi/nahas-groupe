@@ -1,4 +1,4 @@
-<footer class="w-full  block md:flex flex-col items-center justify-start font-bold bg-[#002f54] text-white h-full md:h-[34rem] md:justify-center">
+<footer class="w-full  block md:flex flex-col items-center justify-start font-bold bg-[#002f54] text-white h-full md:h-[34rem] pb-16 md:justify-center">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
   <div class="block md:flex px-10 h-full md:h-96 w-full justify-center items-center">
