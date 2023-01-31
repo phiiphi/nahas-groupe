@@ -35,7 +35,7 @@
             opacity: 0.5 !important;
         }
     </style>
-    <h2 class="flex justify-center mt-16 h-24 text-2xl md:text-7xl font-serif">FEATURED PROPERTIES
+    <h2 class="flex justify-center mt-16 h-24 text-4xl md:text-7xl font-serif">FEATURED PROPERTIES
     </h2>
 
     <div class="lg:grid lg:grid-cols-3 gap-4 space-x-0 space-y-4 md:space-y-0 md:mx-64">

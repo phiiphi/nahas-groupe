@@ -1,8 +1,10 @@
 <div class="block md:flex h-full md:h-[50rem]">
     <div class="flex justify-center flex-col  text-black w-full md:w-1/2 bg-[#ffbb38]">
         <div class="w-full ml-2 md:ml-14">
-            <div class="h-24 animate-pulse rounded-full text-5xl">
-                Nahas Properties
+            <div class="h-24 animate-pulse rounded-full">
+                <h2 class=" text-5xl mt-10">
+                    Nahas Properties
+                </h2>
             </div>
             <h1 class='text-3xl md:text-5xl text-white font-serif'>The Best Way To Buy And Sell In The Ghana</h1>
             <p class="my-8 text-2xl text-gray-600 mr-10">
@@ -32,7 +34,9 @@
     <div class="flex justify-center flex-col  text-black w-full h-full md:w-1/2 bg-[#ffbb38]">
         <div class="w-full ml-2 md:ml-14">
             <div class="h-24 w-full text-5xl animate-pulse">
+                <h2 class=" text-5xl mt-10">
                 Technology to Fit You
+                </h2>
             </div>
             <h1 class='text-3xl md:text-5xl font-serif text-white'>
                 Your Real Estate Choice for Living In The Ghana            

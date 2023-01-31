@@ -1,40 +1,40 @@
 <div class=" fixed top-0 inset-x-0 z-10">
-    <div class="hidden md:flex justify-between w-full h-40 bg-white hood ">
+    <div class="hidden md:flex justify-between w-full h-40 bg-[#002f54] hood ">
         <div class="flex justify-start items-center mx-6">
-            <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-black">
+            <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-white">
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400 text-black
-                   {{'/' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  <a class="md:p-4  py-2 block hover:text-purple-400 text-white 
+                   {{'/' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                   href="{{route('home')}}"
                     >Home</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400 text-black {{'about' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 text-white {{'about' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                     href="{{route('about')}}" 
                     >About Us</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block hover:text-purple-400 text-black {{'services' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 text-white {{'services' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                   href="{{route('services')}}"
                     >Services</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block  hover:text-purple-400 text-black {{'contact' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  <a class="md:p-4 py-2 block  hover:text-purple-400 text-white {{'contact' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                   href="{{route('contact')}}"
                     >Contact</a
                   >
                 </li>
                 <li>
-                  <a class="md:p-4 py-2 block  hover:text-purple-400 text-black {{'careers' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                  <a class="md:p-4 py-2 block  hover:text-purple-400 text-white {{'careers' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                   href="{{route('careers')}}"
                     >Careers</a
                   >
                 </li>
                 <li>
-                    <a class="md:p-4 py-2 block  hover:text-purple-400 text-black {{'faqs' == request()->path() ? 'underline underline-offset-8 decoration-black' : ''}}" 
+                    <a class="md:p-4 py-2 block hover:text-purple-400 text-white {{'faqs' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                     href="{{route('faq')}}"
                       >FAQ's</a
                     >
@@ -42,17 +42,17 @@
             </ul>           
         </div>
         <div class="flex justify-end items-center mx-6">
-          <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-black">
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-black w-56">
-              <a class="md:p-4 py-2 block text-black hover:text-purple-400" 
+          <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-white">
+            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+              <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
               href="{{route('gallery')}}"
               >Projects</a
 
               >
               <i class="fa-solid fa-diagram-project"></i>
             </li>
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-black w-56">
-                <a class="md:p-4 py-2 block text-black hover:text-purple-400" 
+            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+                <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
                 href="{{route('login')}}"
                   >Login
                   </a

@@ -1,9 +1,9 @@
 @props(['product'])
 <x-card class="h-full md:h-[50rem]">
-<div class="block md:flex justify-center h-full md:h-[50rem] ">
+<div class="block md:flex justify-center h-full md:h-[50rem] mx-2">
   <div class="flex justify-center">
-      <div class="flex justify-center flex-col text-gray-600 w-full md:w-full" >
-          <img class="object-cover w-full overflow-hidden h-60 md:h-full" 
+      <div class="flex justify-center flex-col text-gray-600 w-full md:w-full " >
+          <img class="object-cover w-full overflow-hidden h-80 md:h-full" 
             src="{{$product->image_one ? asset('storage/uploads/'. $product->image_one) : asset('/images/no-image.png')}}" alt="" />
           <div class="">
               <p class="text-center text-2xl my-2">
