@@ -4,36 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+        <link rel="icon" type="image/x-icon" href="/images/logo.jpeg">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpeg">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.jpeg">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.jpeg">
+        <link rel="icon" href="images/logo.jpeg" />
 
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-        <title>{{ config('app.name', 'Royal Bullion Security Vaults') }}</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-
-        <script src="https://cdn.tailwindcss.com"></script>
-
-
-        <meta property="og:image" content="https://rbsvaults.com/images/logogold.jpg" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rbsvaults.com/"/>
-        <meta property="og:title" content="Royal Bullion Security Vault" />
-        <meta property="og:description" content="We're the official home of the royal vaults, Get the..."/> 
 
         <!-- swiper -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/slider.css') }}">
+        {{-- <link rel="stylesheet" href="{{ asset('css/slider.css') }}">
         <link rel="stylesheet" href="{{ asset('css/whatsapp.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/video.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/video.css') }}"> --}}
 
-        {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+        <script src="https://cdn.tailwindcss.com"></script>
 
         <script type="text/javascript" data-cfasync="false" async="true" src="https://web.chatfully.io/live/63cf9c3bLGGeppH5Ykog"></script>
 
@@ -49,9 +41,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     </head>
-    <body class="font-roboto antialiased">
+    <body class="font-roboto">
             <header class="mb-40">
-                <x-navbar/>
+                <x-nav/>
             </header>            
             {{-- <div class="mt-32">
                 <x-slider/>

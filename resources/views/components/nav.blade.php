@@ -1,10 +1,11 @@
-<div class=" fixed top-0 inset-x-0 z-10">
-    <div class="hidden md:flex justify-between w-full h-40 bg-[#002f54] hood ">
-        <div class="flex justify-start items-center mx-6">
-            <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-gray-200">
+<div class=" fixed top-0 inset-x-0 z-10 font-serif">
+    <div class="hidden md:flex justify-between w-full h-32 bg-[#002f54] hood ">
+        <div class="flex justify-start items-center">
+            <ul class="mx-4 pt-4 md:flex md:justify-between md:pt-0 text-white">
               <li class="flex justify-center items-center">
-                <a class="md:p-4  py-2 block hover:text-purple-400 text-white">
-                <img class="object-cover w-full overflow-hidden h-20" src="{{ asset('images/logo.jpeg') }}"
+                <a href="{{route('home')}}"
+                class="md:p-4  py-2 block hover:text-purple-400 text-white">
+                <img class="object-cover overflow-hidden h-16 w-full" src="{{ asset('images/logo.jpeg') }}"
                 alt="image" />
                   </a
                 >
@@ -49,8 +50,8 @@
             </ul>           
         </div>
         <div class="flex justify-end items-center mx-6">
-          <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-white">
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+          <ul class="mx-4 pt-4 text-xl md:flex md:justify-between md:pt-0 text-white">
+            <li class="flex justify-center items-center border hover:border hover:border-white w-44">
               <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
               href="{{route('gallery')}}"
               >Projects</a
@@ -58,7 +59,7 @@
               >
               <i class="fa-solid fa-diagram-project"></i>
             </li>
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+            <li class="flex justify-center items-center mx-2 border hover:border hover:border-white w-44">
                 <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
                 href="{{route('login')}}"
                   >Login
@@ -72,7 +73,7 @@
     <div class="bg-white">
         <div class="flex md:hidden justify-between w-full h-40 hood text-black">
             <div class="flex justify-start items-center mx-6">
-              <img class="object-cover w-full overflow-hidden h-20 md:h-full" src="{{ asset('images/logo.jpeg') }}"
+              <img class="object-cover w-40 overflow-hidden h-20 md:h-full" src="{{ asset('images/logo.jpeg') }}"
               alt="image" />
             </div>
             <div class="flex justify-end items-center mx-6">
