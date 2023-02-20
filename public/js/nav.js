@@ -108,7 +108,8 @@ function displayInvestmentsCardInfo(){
     card_block.style.display = 'none'
     wallet_block.style.display = 'none'
     payment_block.style.display = 'none'
-    
+    plumbing_block.style.display = 'none'
+
     credit_card.style.color = 'black'
     credit_card.style.textDecoration = 'none'
 
@@ -137,6 +138,8 @@ function displayPaymentCardInfo(){
     card_block.style.display = 'none'
     wallet_block.style.display = 'none'
     payment_block.style.display = 'flex'
+    plumbing_block.style.display = 'none'
+
 
     payment.style.color = '#ffbb68'
     payment.style.textDecoration = 'underline'
@@ -167,6 +170,8 @@ function displayCardBenefitsInfo(){
     card_block.style.display = 'flex'
     wallet_block.style.display = 'none'
     payment_block.style.display = 'none'
+    plumbing_block.style.display = 'none'
+
 
     card_benefits.style.color = '#ffbb68'
     card_benefits.style.textDecoration = 'underline'
@@ -197,6 +202,8 @@ function displayWalletsInfo(){
     card_block.style.display = 'none'
     wallet_block.style.display = 'flex'
     payment_block.style.display = 'none'
+    plumbing_block.style.display = 'none'
+
 
     wallet.style.color = '#ffbb68'
     wallet.style.textDecoration = 'underline'
