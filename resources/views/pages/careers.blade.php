@@ -3,18 +3,16 @@
         <div class="block w-full md:flex justify-center items-center h-full md:h-[40rem]">
             <div class="flex justify-center items-center w-full md:w-1/2 my-2 md:my-0 h-full md:h-96">
                 <div class="flex flex-col mx-4 md:mx-24">
-                    <h3 class="text-6xl md:text-8xl font-serif ">Careers @ <br> Nahas Properties</h3>
-                    <p class="my-10 text-2xl md:text-4xl font-roboto">
+                    <h3 class="text-4xl md:text-6xl font-serif ">Careers @ <br> Nahas Properties</h3>
+                    <p class="my-10 text-xl md:text-2xl font-roboto">
                         Are you a recent graduate or an experience professional looking for a new challenge in a environment? Take a look at our current career opportunities below.
                     </p>
                     <a href="#vacancy">
-                        <button class="h-16 bg-laravel w-1/2 text-white text-2xl font-roboto">Apply Now </button>
+                        <button class="h-12 bg-laravel w-1/2 text-white text-2xl font-roboto">Apply Now </button>
                     </a>
-                    
-
                 </div>
             </div>
-            <div class="w-full md:w-1/2 my-2 md:my-0 h-full">
+            <div class="w-full md:w-1/2 my-2 md:my-0 h-64 md:h-full">
                 <img
                 src="{{ asset('images/realtor.jpeg') }}"
                 class="w-full h-full object-cover overflow-hidden"
@@ -22,21 +20,20 @@
                 />
             </div>
         </div>
-        <div class="block w-full md:flex md:flex-col justify-center items-center  mb-24 bg-white" id="">            
-            <h3 class="flex justify-center items-center text-5xl md:text-8xl font-serif my-24">VACANCIES</h3>
-            <div class="block w-full md:w-5/6 md:flex md:flex-col justify-center items-center shadow-lg px-10 md:px-20" id="">
+        <div class="block w-full md:flex md:flex-col justify-center items-center  mb-24 bg-white" id="vacancy">            
+            <h3 class="flex justify-center items-center text-5xl md:text-6xl font-serif mt-16">VACANCIES</h3>
+            <div class="block w-full md:w-5/6 md:flex md:flex-col justify-center items-center shadow-lg px-6 md:px-20" id="">
                 <div class="flex flex-col justify-center items-center w-full  my-2 md:my-0">
                     <div class="border-b w-full"> 
-                        <div class="flex justify-between items-center  w-full h-48 border-b">
+                        <div class="flex justify-between items-center  w-full h-40 md:h-48 border-b">
                             <div class="flex justify-start">
-                                <p class="text-3xl font-serif mr-2">Software Engineer (Full Stake)</p>
-    
+                                <p class="text-lg md:text-2xl font-serif mr-2">Software Engineer (Full Stake)</p>
                             </div>
-                            <button id="careerBtn1" class="text-2xl border-2 h-20 w-20 border-gray-400 ml-2">
+                            <button id="careerBtn1" class="text-xl border-2 h-16 md:h-20 w-16 md:w-20 border-gray-400 ml-2">
                                 <i class="fa-sharp fa-solid fa-plus" id="plusIcon1"></i>
                             </button>
                         </div>
-                        <div class="hidden text-2xl my-6 mx-2 " id="product_engieneer">
+                        <div class="hidden text-lg my-6 md:mx-2 " id="product_engieneer">
                             <p> <span class="font-bold">Job Reference</span> : NP63537</p>
                             <p> <span class="font-bold">Job Type</span> : Full-Time</p>
                             <p> <span class="font-bold">Contrat Type</span> : 12-Month Fixed-Term Contract(Subject to renewal or Permanent Contract)</p>
@@ -129,16 +126,6 @@
 
                                     </p>
                                 </div>
-
-
-                                
-
-
-
-
-
-  
-
                             </div>
                             <div class="mt-10">
                                 <h2 class="font-bold">Benefits</h2>
@@ -178,7 +165,7 @@
                         </div>
                     </div>
                     <div class=" w-full"> 
-                        <div class="flex justify-between items-center  w-full h-48">
+                        <div class="flex justify-between items-center  w-full h-40 md:h-48">
                             <div class="flex justify-start">
                                 <p class="text-3xl font-serif">Civil Engineer</p>
     

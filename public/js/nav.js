@@ -259,31 +259,31 @@ const mobile_plumbing = document.getElementById('mobile_plumbing');
 
 
 function displayPlumbingCardInfoM(){
-    mobile_investment_block.style.display = 'none'
-    mobile_card_block.style.display = 'none'
-    mobile_wallet_block.style.display = 'none'
-    mobile_payment_block.style.display = 'none'
-    mobile_credit_block.style.display = 'block'
+    mobile_investment_block.style.display       = 'none'
+    mobile_card_block.style.display             = 'none'
+    mobile_wallet_block.style.display           = 'none'
+    mobile_payment_block.style.display          = 'none'
+    mobile_credit_block.style.display           = 'none'
+    mobile_plumbing_block.style.display         = 'block'
 
-    mobile_investment.style.color = 'black'
-    mobile_investment.style.textDecoration = 'none'
+    mobile_investment.style.color               = 'black'
+    mobile_investment.style.textDecoration      = 'none'
 
-    mobile_card_benefits.style.color = 'black'
-    mobile_card_benefits.style.textDecoration = 'none'
+    mobile_card_benefits.style.color            = 'black'
+    mobile_card_benefits.style.textDecoration   = 'none'
 
-    mobile_payment.style.color = 'black'
-    mobile_payment.style.textDecoration = 'none'
+    mobile_payment.style.color                  = 'black'
+    mobile_payment.style.textDecoration         = 'none'
 
-    mobile_wallet.style.color = 'black'
-    mobile_wallet.style.textDecoration = 'none'
+    mobile_wallet.style.color                   = 'black'
+    mobile_wallet.style.textDecoration          = 'none'
 
-    mobile_credit_card.style.color = '#black'
-    mobile_credit_card.style.textDecoration = 'none'
-    // mobile_credit_card.style.textUnderlineOffset = '8px'
+    mobile_credit_card.style.color              = 'black'
+    mobile_credit_card.style.textDecoration     = 'none'
 
-    mobile_plumbing.style.color = '#ffbb68'
-    mobile_plumbing.style.textDecoration = 'underline'
-    mobile_plumbing.style.textUnderlineOffset = '8px'
+    mobile_plumbing.style.color                 = '#ffbb68'
+    mobile_plumbing.style.textDecoration        = 'underline'
+    mobile_plumbing.style.textUnderlineOffset   = '8px'
     
 }
 
@@ -306,7 +306,7 @@ function displayCreditCardInfoM(){
     mobile_wallet.style.color = 'black'
     mobile_wallet.style.textDecoration = 'none'
 
-    mobile_plumbing.style.color = '#black'
+    mobile_plumbing.style.color = 'black'
     mobile_plumbing.style.textDecoration = 'none'
 
     mobile_credit_card.style.color = '#ffbb68'
@@ -334,7 +334,7 @@ function displayInvestmentsCardInfoM(){
     mobile_wallet.style.color = 'black'
     mobile_wallet.style.textDecoration = 'none'
 
-    mobile_plumbing.style.color = '#black'
+    mobile_plumbing.style.color = 'black'
     mobile_plumbing.style.textDecoration = 'none'
 
     mobile_investment.style.color = '#ffbb68'
@@ -361,7 +361,7 @@ function displayPaymentCardInfoM(){
     mobile_card_benefits.style.color = 'black'
     mobile_card_benefits.style.textDecoration = 'none'
 
-    mobile_plumbing.style.color = '#black'
+    mobile_plumbing.style.color = 'black'
     mobile_plumbing.style.textDecoration = 'none'
 
     mobile_wallet.style.color = 'black'
@@ -391,7 +391,7 @@ function displayCardBenefitsInfoM(){
     mobile_payment.style.color = 'black'
     mobile_payment.style.textDecoration = 'none'
 
-    mobile_plumbing.style.color = '#black'
+    mobile_plumbing.style.color = 'black'
     mobile_plumbing.style.textDecoration = 'none'
 
     mobile_wallet.style.color = 'black'
@@ -424,7 +424,7 @@ function displayWalletsInfoM(){
     mobile_card_benefits.style.color = 'black'
     mobile_card_benefits.style.textDecoration = 'none'
 
-    mobile_plumbing.style.color = '#black'
+    mobile_plumbing.style.color = 'black'
     mobile_plumbing.style.textDecoration = 'none'
 
     mobile_investment.style.color = 'black'

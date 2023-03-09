@@ -42,7 +42,7 @@
 
     </head>
     <body class="font-roboto">
-            <header class="mb-40">
+            <header class="mb-24">
                 <x-nav/>
             </header>            
             {{-- <div class="mt-32">
@@ -53,10 +53,10 @@
             </main>
             <x-footer/>
             <div
-                class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold  text-white h-40 mt-24 opacity-90 md:justify-center">
+                class="fixed bottom-2 left-0 w-full flex items-center justify-start font-bold  text-white h-16 opacity-90 md:justify-center">
                 <p class="ml-2"></p>
-                <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-2 left-10" > 
-                    <i class="fa-brands fa-whatsapp text-white text-8xl bg-green-400 flex justify-center items-center w-36  h-28 rounded"></i>
+                <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-0 left-6" > 
+                    <i class="fa-brands fa-whatsapp text-white text-5xl bg-green-400 flex justify-center items-center w-16  h-16 rounded"></i>
                 </a>
             </div>  
     </body>

@@ -2,7 +2,7 @@
   
     <div class="block md:flex items-center mx-2 md:mx-12 h-full ">
         <div class="md:hidden w-full md:w-1/2 mx-2 md:mx-10 md:h-[38rem]">
-            <h3 class="md:h-12 text-black text-4xl font-serif">About Us</h3>
+            <h3 class="md:h-12 text-black text-4xl font-serif mb-6">About Us</h3>
             <p class="text-gray-500">
                 Nahas Properties, One of the Ghana's largest private city developer with over 30,000 acres of innovative projects in the growth paths of major cities like Accra, Takoradi, Kumasi, Koforidua and Kwahu.
                 Our ambition extends beyond addressing the self-evident issue of oppressive urban congestion and a lack of high-quality residential and commercial real estate in Africa. Instead, we want to strive to build the communities, schools, clinics, and living and working spaces that can sustain and speed up Africa's economic growth, satisfy the needs of the continent's growing middle class, and act as a catalyst for additional urban development.
