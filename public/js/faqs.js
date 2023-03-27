@@ -1,35 +1,33 @@
-const faq1 = document.getElementById('faq1');
-document.getElementById("faqbtn1").addEventListener("click", displayFaq1Info);
+const faq1 = document.getElementById("faq1_");
+document.getElementById("faqbtn1_").addEventListener("click", displayFaq1Info__);
 const togglePlusIcon1 = document.getElementById('plusIcon1');
 
 
-const faq2 = document.getElementById('faq2');
-document.getElementById("faqbtn2").addEventListener("click", displayFaq2Info);
+const faq2 = document.getElementById('faq2_');
+document.getElementById("faqbtn2_").addEventListener("click", displayFaq2Info);
 const togglePlusIcon2 = document.getElementById('plusIcon2');
 
-const faq3 = document.getElementById('faq3');
-document.getElementById("faqbtn3").addEventListener("click", displayFaq3Info);
+const faq3 = document.getElementById('faq3_');
+document.getElementById("faqbtn3_").addEventListener("click", displayFaq3Info);
 const togglePlusIcon3 = document.getElementById('plusIcon3');
 
-const faq4 = document.getElementById('faq4');
-document.getElementById("faqbtn4").addEventListener("click", displayFaq4Info);
+const faq4 = document.getElementById('faq4_');
+document.getElementById("faqbtn4_").addEventListener("click", displayFaq4Info);
 const togglePlusIcon4 = document.getElementById('plusIcon4');
 
-const faq5 = document.getElementById('faq5');
-document.getElementById("faqbtn5").addEventListener("click", displayFaq5Info);
+const faq5 = document.getElementById('faq5_');
+document.getElementById("faqbtn5_").addEventListener("click", displayFaq5Info);
 const togglePlusIcon5 = document.getElementById('plusIcon4');
 
 
-const faq6 = document.getElementById('faq6');
-document.getElementById("faqbtn6").addEventListener("click", displayFaq6Info);
+const faq6 = document.getElementById('faq6_');
+document.getElementById("faqbtn6_").addEventListener("click", displayFaq6Info);
 const togglePlusIcon6 = document.getElementById('plusIcon6');
 
 
 
-function displayFaq1Info(){
-    // faq1.style.display = 'flex'    
+function displayFaq1Info__(){
     faq1.classList.toggle("hidden");
-
     if (togglePlusIcon1.classList.contains('fa-plus')) {
         togglePlusIcon1.classList.remove('fa-plus');
         togglePlusIcon1.classList.add('fa-minus');

@@ -5,67 +5,84 @@
     <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
       <h2 class="text-2xl  mt-10  md:mt-0 font-serif">Land Acquision</h2>
       <div class="font-serif my-4 md:mx-0 lg:mx-0">
-        <p>Title Services</p>
-        <p>Survey Permissions & Coordination</p>
-        <p>Litigation support</p> 
-        <p>Document preparation</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Title Search</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i> Site Selection</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Property Valuation</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Sale Agreements</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Feasibility studies</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>land survey</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Appraisers</p> 
       </div>
       </p>
     </div>
     <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
-      <h2 class="text-2xl font-serif">Property Rentals</h2>
+      <h2 class="text-2xl font-serif ">Property Rentals</h2>
       <div class="font-serif my-4 md:mx-0">
-        <p>Economy or Premium Express</p>
-        <p>Imports & exports</p>
-        <p>Freight consolidation services </p> 
-        <p>Documentation</p> 
-      </div>
-    </div>
-    <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
-      <h2 class="text-2xl font-serif">Properties Management</h2>
-      <div class="font-serif my-4 md:mx-0">
-        <p>Residential Property Management</p>
-        <p>Commercial Property Management</p>
-        <p>Industrial Property Management</p> 
-        <p>Special-Purpose Property Management</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Vehicle</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>House</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Apartment</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Office Space</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Commercial Space</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Land spaces</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Event Centers</p> 
       </div>
     </div>
     <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
       <h2 class="text-2xl font-serif">Construction</h2>
       <div class="font-serif my-4 md:mx-0">
-        <p class="">Civil & Structural Concrete Construction</p>
-        <p>Architectural and Finishing Works</p>
-        <p>Pre Cast Work</p> 
-        <p>Masonry Works and Plaster</p> 
+        <p class=""><i class="fa-solid fa-chevron-right mr-2"></i>Building Plan</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Architectural Design</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>General Construction</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Surveying</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Soil Analysis</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Bill of Quantity</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Renovation</p> 
+
+
       </div>
     </div>
     <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
       <h2 class="text-2xl font-serif">Electrical</h2>
       <div class="font-serif my-4 md:mx-0">
-        <p class="">Light Fixture and Ceiling Fan Installation</p>
-        <p>Outdoor and Landscape Lighting</p>
-        <p>Electrical Panel Upgrades</p> 
-        <p>Surge Protection</p> 
+        <p class=""><i class="fa-solid fa-chevron-right mr-2"></i>Wiring</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Installations</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Electrical Products</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Repairs/Maintenace</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Electrical Upgrade</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Electrical Upgrade</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Surge Protection</p> 
+
+
       </div>
     </div>
     <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
       <h2 class="text-2xl font-serif">Plumbing</h2>
       <div class="font-serif my-4 md:mx-0">
-        <p class="">Installation, Inspection, and Replacement</p>
-        <p>Pipe Repair and Replacement </p>
-        <p>Water Heater Services</p> 
-        <p>Sewer Repair
-
-        </p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>General Plumbing</p>
+        <p class=""><i class="fa-solid fa-chevron-right mr-2"></i>Installation </p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Inspection </p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Replacement</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Repair</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Water Heater Services</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Sewer Repair</p> 
+      </div>
+    </div>
+    <div class="flex flex-col w-full md:w-1/6 h-full md:h-80">
+      <h2 class="text-2xl font-serif">Property Mgmt.</h2>
+      <div class="font-serif my-4 md:mx-0">
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Residential</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Commercial</p>
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Industrial</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Tenant Screening</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Tenant Selection</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Lease Agreements</p> 
+        <p><i class="fa-solid fa-chevron-right mr-2"></i>Eviction proceedings</p> 
       </div>
     </div>
   </div>
-  <div class="flex justify-between items-center mt-10 mx-2 md:mx-10 text-">
+  <div class="flex justify-between items-center mx-2 md:mx-10">
       <p class="hidden md:flex md:ml-2 w-[28rem]">Copyright &copy; 2023, All Rights reserved</p>
       <ul class='flex justify-between items-center mx-36 '>
-          <div class="flex items-center h-10 ">    
-              
-          </div>
           <div class="flex items-center h-10 text-lg">    
               <li class="flex items-center h-10 px-4">    
                   <i class="fa-brands fa-twitter"></i>            
@@ -83,8 +100,6 @@
                   <i class="fa-brands fa-google-plus"></i>            
               </li>
           </div>
-        
-
       </ul>
   </div>
   <p class="flex md:hidden justify-center items-center ml-2 text-xs w-full my-2">Copyright &copy; 2022, All Rights reserved</p>

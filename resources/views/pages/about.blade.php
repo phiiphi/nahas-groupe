@@ -8,7 +8,7 @@
                 Our ambition extends beyond addressing the self-evident issue of oppressive urban congestion and a lack of high-quality residential and commercial real estate in Africa. Instead, we want to strive to build the communities, schools, clinics, and living and working spaces that can sustain and speed up Africa's economic growth, satisfy the needs of the continent's growing middle class, and act as a catalyst for additional urban development.
             </p>
             <p class="text-gray-500 my-6">
-                We are chosen by large companies and individual aiding them in land acquaision, property management, construction, plumbing, electrical and architectural design and alot more, unlike most real estate agencies, we offer clients more than building, or selling of properties to client, we also push on an extra layea of giving client the option of choosing to lease or sell their properties by connecting him/her to the best brokers through our global network.
+                We are chosen by large companies and individual aiding them in land acquaision, property management, construction, plumbing, electrical and architectural design and alot more, unlike most real estate agencies, we offer clients more than building, or selling of properties to client, we also push on an extra layea of giving client the option of choosing to lease or sell their properties by connecting them to the best brokers through our global network.
             </p>
         </div>
         <div class="w-full md:w-1/2 my-2 md:my-0 h-[38rem]">
@@ -25,7 +25,7 @@
                 Our ambition extends beyond addressing the self-evident issue of oppressive urban congestion and a lack of high-quality residential and commercial real estate in Africa. Instead, we want to strive to build the communities, schools, clinics, and living and working spaces that can sustain and speed up Africa's economic growth, satisfy the needs of the continent's growing middle class, and act as a catalyst for additional urban development.
             </p>
             <p class="text-gray-500 text-xl font-Arapey italic">
-                We are chosen by large companies and individual aiding them in land acquaision, property management, construction, plubing, architectural design and alot more, unlike most real estate agencies, we offer clients more than building, or selling of properties to client, we also push on an extra layea of giving client the option of choosing to lease or sell their properties by connecting him/her to the best broker through our global network.
+                We are chosen by large companies and individual aiding them in land acquaision, property management, construction, plumbing, electrical and architectural design and alot more, unlike most real estate agencies, we offer clients more than building, selling of properties to client, we also push on an extra layea of giving client the option of choosing to lease or sell their properties by connecting them to the best brokers through our global network.
             </p>
         </div>  
     </div> 

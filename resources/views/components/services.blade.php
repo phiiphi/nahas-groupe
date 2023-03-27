@@ -10,10 +10,11 @@
                 Giving you the avenue to own your Dream House
             </h1>
             <p class="my-8 text-2xl text-gray-600 mr-10">
-                Our team of international vibrant real estate agents is ready to offer personalized assistance; which includes real estate sales, rentals, property management, appraisals, office spaces, rentails space, medical/dentails/lab space, data ecnter, parking space, executive office suite, luxury downtown living and  relocation services from or to anypart in Ghana. Call one of our licensed Realtors today at +233 54 149 7504            
+                Our team of international vibrant real estate agents is ready to offer personalized assistance which includes real estate sales, rentals, property management, appraisals, office spaces, rentals spaces, medical/dentails/lab spaces, data center, parking space, executive office suite, conference centers and  relocation services from or to any part in Ghana. Contact us <a href="tel:233598492444" class="mx-0 px-0">+233598492444
+                </a>            
             </p>            
             <p class="my-8 text-2xl text-gray-600 mr-10">
-                Nahas Properties offers the opportunities to everyone from all walk of lives from the highest to the lowest to own a home or properties at the lowest, affordable and flexible mode of payment.        
+                Nahas Properties offers the opportunities to everyone from all walk of lives from the highest to the lowest to own a home or properties at the lowest, affordable and flexible mode of payment.
             </p>   
         </div>
       
@@ -35,20 +36,17 @@
         <div class="w-full ml-2 md:ml-14">
             <div class="h-24 w-full text-5xl animate-pulse">
                 <h2 class="text-5xl font-sans md:text-7xl mt-10">
-                Technology to Fit You
+                Living the best that you can
                 </h2>
             </div>
             <h1 class='text-3xl md:text-5xl font-serif text-white'>
-                Your Real Estate Choice for Living In The Ghana            
+                Your Real Estate Choice for Living In Ghana            
             </h1>
-            <p class="my-8 text-2xl text-gray-600">
-                We give you the best of what technologies can afford through a cutting edge 
-                state of the art building carved by the best of engieneering across the world. 
-                We offers the avenue to own a home from a buffet range of choices to choose from,
-                from our gated communities to building for as you deemed fit.
+            <p class="my-8 text-2xl text-gray-600 mr-6">
+                Hoping to own a house in Ghana, look no further, Nahas Properties provides clients with all forms of real estate solutions. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned, Nahas Properties offers a unique residential space dedicated to providing residents with comfort and luxury in addition to a world-class sports facility, on-site management office, ample parking, and a very serene environment.
             </p>        
             <p class="my-8 text-2xl text-gray-600">
-                We at Nahas properties gives customers the choose the services or terms they would like 
+                We at Nahas properties gives customers the choice of services or terms they would like 
                 to have with us from our wide varieties of services.
                 
             </p>   

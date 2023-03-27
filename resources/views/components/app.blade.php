@@ -36,7 +36,8 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/nav.js') }}" defer></script>
-        <script src="{{ asset('js/careers.js') }}" defer></script>
+        {{-- <script src="{{ asset('js/careers.js') }}" defer></script> --}}
+        <script src="{{ asset('js/faqs.js') }}" defer></script>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -55,7 +56,7 @@
             <div
                 class="fixed bottom-2 left-0 w-full flex items-center justify-start font-bold  text-white h-16 opacity-90 md:justify-center">
                 <p class="ml-2"></p>
-                <a href="https://wa.me/+233541497504" class="flex justify-center items-center absolute top-0 left-6" > 
+                <a href="https://wa.me/+233598492444" class="flex justify-center items-center absolute top-0 left-6" > 
                     <i class="fa-brands fa-whatsapp text-white text-5xl bg-green-400 flex justify-center items-center w-16  h-16 rounded"></i>
                 </a>
             </div>  
