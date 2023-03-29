@@ -17,7 +17,7 @@ const togglePlusIcon4 = document.getElementById('plusIcon4');
 
 const faq5 = document.getElementById('faq5_');
 document.getElementById("faqbtn5_").addEventListener("click", displayFaq5Info);
-const togglePlusIcon5 = document.getElementById('plusIcon4');
+const togglePlusIcon5 = document.getElementById('plusIcon5');
 
 
 const faq6 = document.getElementById('faq6_');

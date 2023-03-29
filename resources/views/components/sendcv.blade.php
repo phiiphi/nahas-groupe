@@ -37,7 +37,7 @@
                     <option>Software Engineer</option>
                     <option>Electrical Engineer</option>
                     <option>Plumbing Engineer</option>
-                    <option>Electrical Engineer</option>
+                    <option>Human Resource</option>
 
                 </select>        
             </div>

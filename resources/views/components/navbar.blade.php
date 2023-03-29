@@ -72,8 +72,12 @@
     <div class="bg-white">
         <div class="flex md:hidden justify-between w-full h-40 hood text-black">
             <div class="flex justify-start items-center mx-6">
-              <img class="object-cover w-full overflow-hidden h-20 md:h-full" src="{{ asset('images/logo.jpeg') }}"
+              <a href="{{route('home')}}"
+              class="md:p-4  py-2 block hover:text-purple-400 text-white">
+              <img class="object-fit w-24 overflow-hidden h-18 md:h-full" src="{{ asset('images/logg.jpeg') }}"
               alt="image" />
+                </a
+              >
             </div>
             <div class="flex justify-end items-center mx-6">
               <i class="mr-8 text-4xl fa-solid fa-bars h-6 w-6 cursor-pointer md:hidden block" id="menu-button"></i>

@@ -4,9 +4,9 @@
     </div>
     <div>
         <div class="flex justify-center w-full  bg-[#f7f7f7]" id="land-acquision">
-            <div class="block md:flex justify-center items-center  md:my-16 w-full md:w-5/6">
-                <div class="flex flex-col justify-center items-center  w-full md:w-1/2  h-[34rem] bg-white">
-                    <div class="mx-2 md:ml-8 md:py-12">
+            <div class="block md:flex justify-center items-center  my-4 md:my-16 w-full md:w-5/6">
+                <div class="flex flex-col justify-center items-center  w-full md:w-1/2  h-[40rem] md:h-[34rem] bg-white">
+                    <div class="mx-2 md:ml-8 py-0 md:py-12">
                         <h3 class="text-3xl my-4">Land Acquision</h3> 
                         <p class="text-gray-500">
                             The core of Nahas Properties work is acquisition services. We provide client with various option on land acquision from buying lands from us through our instalments packages. The key to bringing everything together quickly is to fully comprehend the needs and concerns of clients as well as their budgets and timetables. We provides client with easier options of buying lands on various installations packages stipulated in our onboarding contracting. We take pleasure in our ability to create sketches internally and use them as a starting point for acquiring easements for clients.                        
@@ -30,7 +30,7 @@
                         src="{{ asset('images/rental-property.png') }}"
                         alt="image"/>
                 </div>
-                <div class="flex flex-col items-center w-full md:w-1/2 justify-center bg-[#f7f7f7] h-[26rem] md:h-[34rem]">
+                <div class="flex flex-col items-center w-full md:w-1/2 justify-center bg-[#f7f7f7] h-[48rem] md:h-[26rem]">
                     <div class="mx-2 md:ml-8">
                         <h3 class="text-3xl my-4">Property Rentals</h3>
                         <p class="text-gray-500">
@@ -86,7 +86,7 @@
         </div>
         <div class="flex justify-center w-full  bg-[#f7f7f7]" id="plumbing__">
             <div class="block md:flex justify-center items-center  md:my-16 w-full md:w-5/6">
-                <div class="flex flex-col justify-center items-center w-full md:w-1/2  h-[34rem] bg-white">
+                <div class="flex flex-col justify-center items-center w-full md:w-1/2  h-[48rem] md:h-[34rem] bg-white">
                     <div class="mx-2 md:ml-8 py-12">
                         <h3 class="text-3xl my-2">Plumbing</h3>
                         <p class="text-gray-500">
@@ -111,8 +111,8 @@
                         alt="image" 
                 />
                 </div>
-                <div class="flex flex-col items-center w-full md:w-1/2 justify-center bg-[#f7f7f7] h-[34rem]">
-                    <div class="ml-8">
+                <div class="flex flex-col items-center w-full md:w-1/2 justify-center bg-[#f7f7f7] h-[50rem] md:h-[34rem]">
+                    <div class="mx-2 md:ml-8 py-12">
                         <h3 class="text-3xl my-4">Electrical Construction</h3>
                         <p class="text-gray-500">
                             We offer various electrical construction services inlucding sales of electrical material and appliances, installation, repair, and maintenance of electrical systems in residential, commercial, and industrial buildings. These services may include: Electrical installation: This involves installing electrical systems and components such as wiring, outlets, switches, circuit breakers, and lighting fixture. Electrical repairs: We have electricians that can diagnose and repair electrical problems, such as faulty wiring, malfunctioning outlets, or circuit breaker tripping. Electrical maintenance: we provide regular inspections, cleaning, and servicing of various components of the electrical system to prevent potential problems from occurring. Electrical upgrades: As electrical technology advances, professional electricians can upgrade systems to meet new standards and regulations. Emergency electrical services: In the event of an electrical emergency, such as a power outage or electrical fire, professional electricians can be called upon to quickly address the problem and prevent further damage.
