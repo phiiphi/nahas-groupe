@@ -5,7 +5,7 @@
               <li class="flex justify-center items-center">
                 <a href="{{route('home')}}"
                 class="md:p-4  py-2 block hover:text-purple-400 text-white">
-                <img class="object-cover overflow-hidden h-16 w-full" src="{{ asset('images/logo.jpeg') }}"
+                <img class="object-cover overflow-hidden h-16 w-28 md:w-full" src="{{ asset('images/logg.jpeg') }}"
                 alt="image" />
                   </a
                 >
@@ -50,7 +50,7 @@
             </ul>           
         </div>
         <div class="flex justify-end items-center mx-6">
-          <ul class="mx-4 pt-4 text-xl md:flex md:justify-between md:pt-0 text-white">
+          <ul class="mx-4 text-xl md:flex md:justify-between md:pt-0 text-white">
             <li class="flex justify-center items-center border hover:border hover:border-white w-44">
               <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
               href="{{route('gallery')}}"

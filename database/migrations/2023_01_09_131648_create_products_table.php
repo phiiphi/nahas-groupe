@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string("status")->nullable();
             $table->string("location")->nullable();
             $table->string("description")->nullable();
+            $table->string("details")->nullable();
             $table->string("image_one")->nullable();
             $table->string("image_two")->nullable();
             $table->string("image_three")->nullable();

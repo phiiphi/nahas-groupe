@@ -25,8 +25,6 @@
         <link rel="stylesheet" href="{{ asset('css/whatsapp.css') }}">
         <link rel="stylesheet" href="{{ asset('css/video.css') }}"> --}}
 
-        <script src="https://cdn.tailwindcss.com"></script>
-
         <script type="text/javascript" data-cfasync="false" async="true" src="https://web.chatfully.io/live/63cf9c3bLGGeppH5Ykog"></script>
 
 
@@ -42,7 +40,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     </head>
-    <body class="font-roboto">
+    <body class="">
             <header class="mb-24">
                 <x-nav/>
             </header>            

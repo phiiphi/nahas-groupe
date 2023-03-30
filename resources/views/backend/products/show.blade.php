@@ -54,20 +54,7 @@
 
 
         </div>
-    </div>
-
-    <div class="w-full md:mx-2 mt-14 md:w-1/3 shadow-lg max-h-72">
-        <div class="relative overflow-hidden mt-4 max-w-full w-full h-72" style="padding-bottom: 56.25%">
-            <iframe
-            src="https://www.youtube.com/embed/{{$product->status}}"
-                frameborder="0"
-                allowfullscreen
-                class="absolute top-0 left-0 w-full h-full"
-            >
-        </iframe>
-        </div>
-    </div>
-    
+    </div>    
     {{-- <div class="block md:flex justify-center h-full md:h-[40rem] w-full">
         <div class="flex justify-center w-full my-8">
             <div class="flex justify-center flex-col text-gray-600 w-full md:w-1/2 mx-4" >

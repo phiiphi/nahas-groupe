@@ -4,7 +4,7 @@
             <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-gray-200">
               <li class="flex justify-center items-center">
                 <a class="md:p-4  py-2 block hover:text-purple-400 text-white">
-                <img class="object-cover w-full overflow-hidden h-20" src="{{ asset('images/logo.jpeg') }}"
+                <img class="object-cover sm:w-64 md:w-full overflow-hidden sm:h-10 md:h-28" src="{{ asset('images/logg.jpeg') }}"
                 alt="image" />
                   </a
                 >
@@ -17,7 +17,7 @@
                   >
                 </li> --}}
                 <li class="flex justify-center items-center">
-                  <a class="md:p-4 py-2 block hover:text-purple-400 text-white {{'about' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
+                  <a class="md:p-4 py-2 block hover:text-purple-400 text-white  {{'about' == request()->path() ? 'underline underline-offset-8 decoration-white' : ''}}" 
                     href="{{route('about')}}" 
                     >About Us</a
                   >
@@ -50,7 +50,7 @@
         </div>
         <div class="flex justify-end items-center mx-6">
           <ul class="mx-4 pt-4 text-3xl md:flex md:justify-between md:pt-0 text-white">
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+            <li class="flex justify-center items-center mx-4 md:mx-10  border hover:border hover:border-white sm:w-40 md:w-56">
               <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
               href="{{route('gallery')}}"
               >Projects</a
@@ -58,7 +58,7 @@
               >
               <i class="fa-solid fa-diagram-project"></i>
             </li>
-            <li class="flex justify-center items-center mx-10  border hover:border hover:border-white w-56">
+            <li class="flex justify-center items-center mx-0 md:mx-10  border hover:border hover:border-white w-56">
                 <a class="md:p-4 py-2 block text-white hover:text-purple-400" 
                 href="{{route('login')}}"
                   >Login

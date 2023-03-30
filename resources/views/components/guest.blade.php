@@ -17,7 +17,7 @@
 
 
 
-        <meta property="og:image" content="https://rbsvaults.com/images/logogold.jpg" />
+        <meta property="og:image" content="https://rbsvaults.com/images/logo.jpeg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://rbsvaults.com/"/>
         <meta property="og:title" content="Royal Bullion Security Vault" />
@@ -48,13 +48,13 @@
     </head>
     <body class="font-roboto antialiased">
         <div class="">
-            <header class="mb-40">
+            <header class="mb-16">
                 <x-navbar/>
             </header>            
             <main class="bg-gray-100">
                 {{$slot}}
             </main>
-            {{-- <x-footer/> --}}
+            <x-footer/>
         </div>        
     </body>
 </html>

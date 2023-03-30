@@ -14,6 +14,7 @@ class Product extends Model
         'location',
         'description',
         'status',
+        'details',
         'image_one',
         'image_two',
         'image_three',

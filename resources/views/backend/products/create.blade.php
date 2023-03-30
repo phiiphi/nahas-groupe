@@ -41,6 +41,31 @@
                                 <input type="text" id="status" name="status" class="block w-full mt-1 border-gray-300 rounded-md shadow-sm placeholder:text-gray-400 h-12 border focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" value="{{ old('status') }}" required>
                             </div>
                         </div>
+                        <div class="my-4 mx-2">
+                            <label for="description">Products Details*</label>
+                            <textarea
+                            class="
+                                block
+                                w-full
+                                px-3
+                                py-1.5
+                                text-base
+                                font-normal
+                                text-gray-700
+                                bg-white bg-clip-padding
+                                border border-solid border-gray-300
+                                rounded
+                                transition
+                                ease-in-out
+                                m-0
+                                focus:text-gray-700 focus:bg-white focus:border-blue-400 focus:outline-none
+                            "
+                            id="exampleFormControlTextarea1"
+                            rows="6"
+                            name="details"
+                            placeholder="Your message"
+                            ></textarea>
+                        </div>
                         <div class="flex">
                             <div class="w-1/2 my-2 mx-2">
                                 <label class="block text-sm font-bold text-gray-700" for="title">Image One</label>
